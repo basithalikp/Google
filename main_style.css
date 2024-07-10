@@ -1,0 +1,25 @@
+#images{
+    text-align: right;
+}
+#logo{
+    align-self: center;
+}
+#button{
+    padding-top: 1.5%;
+    text-align: center;
+}
+#Full_content{
+    align-self: center;
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#google{
+    padding-top: 1.5%;
+}
+#Search_box{
+    text-align: center;
+    max-width: 600px;
+    padding-left: 20%;
+}

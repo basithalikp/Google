@@ -1,0 +1,26 @@
+#images_img{
+    text-align: right;
+}
+#logo_img{
+    align-self: center;
+}
+#button_img{
+    padding-top: 1.5%;
+    text-align: center;
+}
+#Full_content_img{
+    align-self: center;
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#google_img{
+    padding-top: 1.5%;
+}
+#Search_box_img{
+    text-align: center;
+    max-width: 600px;
+    padding-left: 20%;
+    padding-top: 10px;
+}

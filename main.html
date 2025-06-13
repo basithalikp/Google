@@ -8,19 +8,22 @@
     </head>
     <body>
         <div id="images">
-            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" class="btn btn-link">Gmail</a>
-            <a href="image_search.html" class="btn btn-link">Images</a>
+            <div id=""account-container">
+                <a href="https://myaccount.google.com/?hl=en&authuser=0&utm_source=OGB&utm_medium=act&gar=WzJd&sl=true">
+                    <img src="account.jpg" alt="Account" id="account-icon" class="pictures">
+                </a>
+            </div>              
+            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" class="btn btn-link"><img src="gmail.png" alt="Gmail" class="pictures"></a>
+            <a href="image_search.html" class="btn btn-link"><img src="gallery.png" alt="Pictures" class="pictures"></a>
         </div>
         <div id="Full_content">
-            <div id="logo">
-                <img src="logo.png" width="40%">
-            </div>
+                <img src="logo.png" id="logo" alt="Google Logo">
             <form id="google" action="https://www.google.com/search">
                 <div id="Search_box">
-                    <input class="form-control form-control-lg" type="text" placeholder="Ask anything...." aria-label=".form-control-lg example" name="q">
+                    <input class="form-control-lg" type="text" placeholder="Ask anything...." aria-label=".form-control-lg example" name="q">
                 </div>
                 <div id="button">
-                    <button type="submit" class="btn btn-outline-primary">Google Search</button>
+                    <button type="submit" class="btn btn-outline-primary"><span class="btn-text">Google Search<span></button>
                 </div>
             </form>
         </div>
